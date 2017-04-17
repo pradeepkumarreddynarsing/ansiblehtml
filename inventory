@@ -1,0 +1,9 @@
+localhost ansible_connection=local
+
+#acs ansible_ssh_host=127.0.0.1
+
+#[webservers]
+#acs
+
+#[datacenter:children]
+#webservers

@@ -1,0 +1,7 @@
+---
+- name: install and configure webservers
+  hosts: all
+  remote_user: vagrant 
+  sudo: yes
+  roles:
+  - webservers
