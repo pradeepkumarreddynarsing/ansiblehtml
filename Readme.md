@@ -9,7 +9,7 @@ To deploy a simple HTML page, we need to ensure that apache is installed and con
 ************************************************************************************************************************
 let’s have a look at the high-level structure of this simple Ansible-------------------------------------------------- 
 site.yml – starting point of our ansible playbook---------------------------------------------------------------------
-------ansible.cfg - Ansible also allows configuration of settings via environment variables. If these environment variables are set, they will override any setting loaded from the configuration file.---------------------------------------------------------
+------ansible.cfg - Ansible also allows configuration of settings via environment variables. -------------------------
 ------inventory – carrying hosts information--------------------------------------------------------------------------
 ------tasks/ - tasks performed on webservers--------------------------------------------------------------------------
 --------main.yml------------------------------------------------------------------------------------------------------
